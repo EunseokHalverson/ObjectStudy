@@ -16,6 +16,9 @@
 		8877B5AB279D9CFF00B8FAA8 /* Object_StudyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8877B5AA279D9CFF00B8FAA8 /* Object_StudyTests.swift */; };
 		8877B5B5279D9CFF00B8FAA8 /* Object_StudyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8877B5B4279D9CFF00B8FAA8 /* Object_StudyUITests.swift */; };
 		8877B5B7279D9CFF00B8FAA8 /* Object_StudyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8877B5B6279D9CFF00B8FAA8 /* Object_StudyUITestsLaunchTests.swift */; };
+		8877B5C4279D9D2D00B8FAA8 /* Tickets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8877B5C3279D9D2D00B8FAA8 /* Tickets.swift */; };
+		8877B5C8279DAE9C00B8FAA8 /* Ticket_New.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8877B5C7279DAE9C00B8FAA8 /* Ticket_New.swift */; };
+		8877B5CA279DBC0900B8FAA8 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8877B5C9279DBC0900B8FAA8 /* Movie.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		8877B5B0279D9CFF00B8FAA8 /* Object_StudyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Object_StudyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8877B5B4279D9CFF00B8FAA8 /* Object_StudyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Object_StudyUITests.swift; sourceTree = "<group>"; };
 		8877B5B6279D9CFF00B8FAA8 /* Object_StudyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Object_StudyUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		8877B5C3279D9D2D00B8FAA8 /* Tickets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tickets.swift; sourceTree = "<group>"; };
+		8877B5C7279DAE9C00B8FAA8 /* Ticket_New.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ticket_New.swift; sourceTree = "<group>"; };
+		8877B5C9279DBC0900B8FAA8 /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,13 +105,8 @@
 		8877B592279D9CFE00B8FAA8 /* Object_Study */ = {
 			isa = PBXGroup;
 			children = (
-				8877B593279D9CFE00B8FAA8 /* AppDelegate.swift */,
-				8877B595279D9CFE00B8FAA8 /* SceneDelegate.swift */,
-				8877B597279D9CFE00B8FAA8 /* ViewController.swift */,
-				8877B599279D9CFE00B8FAA8 /* Main.storyboard */,
-				8877B59C279D9CFF00B8FAA8 /* Assets.xcassets */,
-				8877B59E279D9CFF00B8FAA8 /* LaunchScreen.storyboard */,
-				8877B5A1279D9CFF00B8FAA8 /* Info.plist */,
+				8877B5C6279D9D3A00B8FAA8 /* Project */,
+				8877B5C5279D9D3000B8FAA8 /* Object */,
 			);
 			path = Object_Study;
 			sourceTree = "<group>";
@@ -125,6 +126,30 @@
 				8877B5B6279D9CFF00B8FAA8 /* Object_StudyUITestsLaunchTests.swift */,
 			);
 			path = Object_StudyUITests;
+			sourceTree = "<group>";
+		};
+		8877B5C5279D9D3000B8FAA8 /* Object */ = {
+			isa = PBXGroup;
+			children = (
+				8877B5C3279D9D2D00B8FAA8 /* Tickets.swift */,
+				8877B5C7279DAE9C00B8FAA8 /* Ticket_New.swift */,
+				8877B5C9279DBC0900B8FAA8 /* Movie.swift */,
+			);
+			path = Object;
+			sourceTree = "<group>";
+		};
+		8877B5C6279D9D3A00B8FAA8 /* Project */ = {
+			isa = PBXGroup;
+			children = (
+				8877B593279D9CFE00B8FAA8 /* AppDelegate.swift */,
+				8877B595279D9CFE00B8FAA8 /* SceneDelegate.swift */,
+				8877B597279D9CFE00B8FAA8 /* ViewController.swift */,
+				8877B599279D9CFE00B8FAA8 /* Main.storyboard */,
+				8877B59C279D9CFF00B8FAA8 /* Assets.xcassets */,
+				8877B59E279D9CFF00B8FAA8 /* LaunchScreen.storyboard */,
+				8877B5A1279D9CFF00B8FAA8 /* Info.plist */,
+			);
+			path = Project;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -260,7 +285,10 @@
 			files = (
 				8877B598279D9CFE00B8FAA8 /* ViewController.swift in Sources */,
 				8877B594279D9CFE00B8FAA8 /* AppDelegate.swift in Sources */,
+				8877B5CA279DBC0900B8FAA8 /* Movie.swift in Sources */,
 				8877B596279D9CFE00B8FAA8 /* SceneDelegate.swift in Sources */,
+				8877B5C8279DAE9C00B8FAA8 /* Ticket_New.swift in Sources */,
+				8877B5C4279D9D2D00B8FAA8 /* Tickets.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
